@@ -1,5 +1,5 @@
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import MetaData
+from sqlalchemy import MetaData,func
 
 # contains definitions of tables and associated schema constructs
 metadata = MetaData()
